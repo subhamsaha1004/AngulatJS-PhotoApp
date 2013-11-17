@@ -1,0 +1,13 @@
+body { text-align: center; }
+.floatL { float: left; }
+#view, h1 { text-align: center; }
+#login, #home { display: inline-block; padding: 10px; border: 2px dashed #3498DB; }
+h1 { color: #ee1821; border-bottom: 1px solid #ee1821; display: inline-block; padding: 0 5px;}
+ul { list-style: none outside none; padding: 0; overflow: hidden; }
+li { display: inline; margin: 10px; float: left; }
+h2, button { background: #3498db; padding: 10px; color: #fff; text-align: center; }
+h2 { margin-top:0; }
+button { display: block; border: 0; margin-top: 25px; width: 100%;}
+input { display: block; border:2px solid #3498db; height: 30px; margin: 10px 0; width:400px; padding: 5px; }
+input:focus { outline: none; box-shadow: 0 0 3px #666 inset; }
+#home > p { font-size: 25px; color:#2ecc71; font-weight: bold; margin: 0; }
